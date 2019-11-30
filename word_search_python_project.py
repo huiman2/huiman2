@@ -93,6 +93,7 @@ def read_lr(row, word):
             return True
     return False
 # THIS CODE ABOVE IS FROM STACK OVERFLOW
+
 def appear_lr(word_board, word):
     '''(list, str) -> (bool)
     Determines if word appears in the word board as if read left to right 
